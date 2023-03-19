@@ -3,6 +3,19 @@
 
 -   Care providers
 -   Population
+
+
+## System requirements
+
+-   Python3 (>=3.10)
+-   Internet connection (to download dependencies and datasets)
+
+## Installation instructions
+1.  Clone repository
+2.  pip install .
+3. Run the program
+
+
 ## Data Cube: Care Providers
 
 ## Poskytovatelé zdravotních služeb

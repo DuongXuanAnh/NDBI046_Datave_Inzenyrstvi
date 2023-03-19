@@ -1,773 +1,773 @@
 @prefix ns1: <https://DuongXuanAnh.github.io/ontology#> .
-@prefix ns2: <http://purl.org/linked-data/cube#> .
-@prefix ns3: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns2: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ns3: <http://purl.org/linked-data/cube#> .
 @prefix ns4: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://DuongXuanAnh.github.io/resources/CZ010> a ns1:region ;
-    ns3:prefLabel "Hlavní město Praha"@cs .
+    ns2:prefLabel "Hlavní město Praha"@cs .
 
-<https://DuongXuanAnh.github.io/resources/observation-45921> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-45921> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0427> ;
     ns1:mean_population 116930 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-<https://DuongXuanAnh.github.io/resources/observation-45973> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-45973> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0524> ;
     ns1:mean_population 78479 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ052> .
 
-<https://DuongXuanAnh.github.io/resources/observation-46108> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-46108> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0514> ;
     ns1:mean_population 71593 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ051> .
 
-<https://DuongXuanAnh.github.io/resources/observation-46109> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-46109> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0522> ;
     ns1:mean_population 78763 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ052> .
 
-<https://DuongXuanAnh.github.io/resources/observation-46165> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-46165> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0531> ;
     ns1:mean_population 103657 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ053> .
 
-<https://DuongXuanAnh.github.io/resources/observation-46603> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-46603> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0642> ;
     ns1:mean_population 378424 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-46651> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-46651> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0644> ;
     ns1:mean_population 114758 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-46980> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-46980> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0208> ;
     ns1:mean_population 100584 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47115> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47115> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0646> ;
     ns1:mean_population 91984 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47171> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47171> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0713> ;
     ns1:mean_population 107697 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ071> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47172> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47172> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0714> ;
     ns1:mean_population 126826 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ071> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47221> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47221> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0322> ;
     ns1:mean_population 84661 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47222> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47222> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0326> ;
     ns1:mean_population 48587 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47224> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47224> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0411> ;
     ns1:mean_population 88030 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ041> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47296> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47296> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0723> ;
     ns1:mean_population 140392 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ072> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47297> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47297> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0724> ;
     ns1:mean_population 188947 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ072> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47459> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47459> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0206> ;
     ns1:mean_population 108889 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47460> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47460> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0209> ;
     ns1:mean_population 186558 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47511> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47511> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ020C> ;
     ns1:mean_population 54767 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47512> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47512> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0314> ;
     ns1:mean_population 70582 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47513> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47513> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0323> ;
     ns1:mean_population 187985 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47553> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47553> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0421> ;
     ns1:mean_population 126492 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47760> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47760> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0521> ;
     ns1:mean_population 162193 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ052> .
 
-<https://DuongXuanAnh.github.io/resources/observation-47840> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-47840> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0802> ;
     ns1:mean_population 212422 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ080> .
 
-<https://DuongXuanAnh.github.io/resources/observation-48010> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-48010> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0312> ;
     ns1:mean_population 60033 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-48059> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-48059> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0325> ;
     ns1:mean_population 80228 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-48109> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-48109> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0202> ;
     ns1:mean_population 95823 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-48110> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-48110> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0207> ;
     ns1:mean_population 127221 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-48886> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-48886> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0711> ;
     ns1:mean_population 36884 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ071> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49167> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49167> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0205> ;
     ns1:mean_population 75402 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49224> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49224> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0201> ;
     ns1:mean_population 99008 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49225> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49225> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ020A> ;
     ns1:mean_population 149990 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49226> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49226> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ020B> ;
     ns1:mean_population 114060 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49227> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49227> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0311> ;
     ns1:mean_population 194994 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49283> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49283> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0315> ;
     ns1:mean_population 50225 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49516> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49516> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0801> ;
     ns1:mean_population 89906 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ080> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49517> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49517> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0804> ;
     ns1:mean_population 149907 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ080> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49579> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49579> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0806> ;
     ns1:mean_population 312908 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ080> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49690> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49690> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0313> ;
     ns1:mean_population 89325 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49833> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49833> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0321> ;
     ns1:mean_population 54313 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49834> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49834> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0412> ;
     ns1:mean_population 110195 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ041> .
 
-<https://DuongXuanAnh.github.io/resources/observation-49903> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-49903> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0324> ;
     ns1:mean_population 68623 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50423> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50423> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0423> ;
     ns1:mean_population 117473 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50424> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50424> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0426> ;
     ns1:mean_population 124401 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50467> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50467> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0534> ;
     ns1:mean_population 135977 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ053> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50521> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50521> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0511> ;
     ns1:mean_population 101997 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ051> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50522> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50522> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0513> ;
     ns1:mean_population 173337 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ051> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50596> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50596> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0523> ;
     ns1:mean_population 108092 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ052> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50597> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50597> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0525> ;
     ns1:mean_population 115365 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ052> .
 
-<https://DuongXuanAnh.github.io/resources/observation-50666> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-50666> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0647> ;
     ns1:mean_population 113389 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51064> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51064> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0631> ;
     ns1:mean_population 93521 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ063> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51112> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51112> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0532> ;
     ns1:mean_population 171461 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ053> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51113> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51113> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0634> ;
     ns1:mean_population 109373 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ063> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51166> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51166> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0715> ;
     ns1:mean_population 118618 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ071> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51332> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51332> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0204> ;
     ns1:mean_population 103345 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51458> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51458> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0633> ;
     ns1:mean_population 71457 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ063> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51459> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51459> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0635> ;
     ns1:mean_population 117181 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ063> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51461> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51461> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0641> ;
     ns1:mean_population 107795 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51462> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51462> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0645> ;
     ns1:mean_population 151344 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51503> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51503> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0533> ;
     ns1:mean_population 102799 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ053> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51704> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51704> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0632> ;
     ns1:mean_population 112206 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ063> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51705> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51705> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0643> ;
     ns1:mean_population 224794 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ064> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51733> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51733> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0722> ;
     ns1:mean_population 139922 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ072> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51734> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51734> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0803> ;
     ns1:mean_population 241184 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ080> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51800> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51800> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0316> ;
     ns1:mean_population 69794 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51856> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51856> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0712> ;
     ns1:mean_population 233661 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ071> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51858> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51858> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0721> ;
     ns1:mean_population 103753 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ072> .
 
-<https://DuongXuanAnh.github.io/resources/observation-51909> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-51909> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0805> ;
     ns1:mean_population 173853 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ080> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52034> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52034> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0203> ;
     ns1:mean_population 164359 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ020> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52054> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52054> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0413> ;
     ns1:mean_population 85452 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ041> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52055> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52055> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0422> ;
     ns1:mean_population 121643 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52056> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52056> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0425> ;
     ns1:mean_population 107090 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52166> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52166> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0317> ;
     ns1:mean_population 101333 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ031> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52240> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52240> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0512> ;
     ns1:mean_population 90204 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ051> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52340> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52340> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0327> ;
     ns1:mean_population 52793 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ032> .
 
-<https://DuongXuanAnh.github.io/resources/observation-52403> a ns2:Observation ;
-    ns2:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
+<https://DuongXuanAnh.github.io/resources/observation-52403> a ns3:Observation ;
+    ns3:dataSet <https://DuongXuanAnh.github.io/resources/Population_2021> ;
     ns1:county <https://DuongXuanAnh.github.io/resources/CZ0424> ;
     ns1:mean_population 85466 ;
     ns1:region <https://DuongXuanAnh.github.io/resources/CZ042> .
 
-ns1:mean_population a ns2:MeasureProperty,
+ns1:mean_population a ns3:MeasureProperty,
         rdf:Property ;
     rdfs:label "Střední stav obyvatel"@cs,
         "Mean population"@en ;
     rdfs:range xsd:integer ;
     rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/measure#obsValue> .
 
-ns1:structure a ns2:DataStructureDefinition ;
-    ns2:component [ ns2:dimension ns1:region ],
-        [ ns2:dimension ns1:county ],
-        [ ns2:measure ns1:mean_population ] .
+ns1:structure a ns3:DataStructureDefinition ;
+    ns3:component [ ns3:measure ns1:mean_population ],
+        [ ns3:dimension ns1:county ],
+        [ ns3:dimension ns1:region ] .
 
 <https://DuongXuanAnh.github.io/resources/CZ0201> a ns1:county ;
-    ns3:prefLabel "Benešov"@cs .
+    ns2:prefLabel "Benešov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0202> a ns1:county ;
-    ns3:prefLabel "Beroun"@cs .
+    ns2:prefLabel "Beroun"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0203> a ns1:county ;
-    ns3:prefLabel "Kladno"@cs .
+    ns2:prefLabel "Kladno"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0204> a ns1:county ;
-    ns3:prefLabel "Kolín"@cs .
+    ns2:prefLabel "Kolín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0205> a ns1:county ;
-    ns3:prefLabel "Kutná Hora"@cs .
+    ns2:prefLabel "Kutná Hora"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0206> a ns1:county ;
-    ns3:prefLabel "Mělník"@cs .
+    ns2:prefLabel "Mělník"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0207> a ns1:county ;
-    ns3:prefLabel "Mladá Boleslav"@cs .
+    ns2:prefLabel "Mladá Boleslav"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0208> a ns1:county ;
-    ns3:prefLabel "Nymburk"@cs .
+    ns2:prefLabel "Nymburk"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0209> a ns1:county ;
-    ns3:prefLabel "Praha-východ"@cs .
+    ns2:prefLabel "Praha-východ"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ020A> a ns1:county ;
-    ns3:prefLabel "Praha-západ"@cs .
+    ns2:prefLabel "Praha-západ"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ020B> a ns1:county ;
-    ns3:prefLabel "Příbram"@cs .
+    ns2:prefLabel "Příbram"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ020C> a ns1:county ;
-    ns3:prefLabel "Rakovník"@cs .
+    ns2:prefLabel "Rakovník"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0311> a ns1:county ;
-    ns3:prefLabel "České Budějovice"@cs .
+    ns2:prefLabel "České Budějovice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0312> a ns1:county ;
-    ns3:prefLabel "Český Krumlov"@cs .
+    ns2:prefLabel "Český Krumlov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0313> a ns1:county ;
-    ns3:prefLabel "Jindřichův Hradec"@cs .
+    ns2:prefLabel "Jindřichův Hradec"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0314> a ns1:county ;
-    ns3:prefLabel "Písek"@cs .
+    ns2:prefLabel "Písek"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0315> a ns1:county ;
-    ns3:prefLabel "Prachatice"@cs .
+    ns2:prefLabel "Prachatice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0316> a ns1:county ;
-    ns3:prefLabel "Strakonice"@cs .
+    ns2:prefLabel "Strakonice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0317> a ns1:county ;
-    ns3:prefLabel "Tábor"@cs .
+    ns2:prefLabel "Tábor"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0321> a ns1:county ;
-    ns3:prefLabel "Domažlice"@cs .
+    ns2:prefLabel "Domažlice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0322> a ns1:county ;
-    ns3:prefLabel "Klatovy"@cs .
+    ns2:prefLabel "Klatovy"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0323> a ns1:county ;
-    ns3:prefLabel "Plzeň-město"@cs .
+    ns2:prefLabel "Plzeň-město"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0324> a ns1:county ;
-    ns3:prefLabel "Plzeň-jih"@cs .
+    ns2:prefLabel "Plzeň-jih"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0325> a ns1:county ;
-    ns3:prefLabel "Plzeň-sever"@cs .
+    ns2:prefLabel "Plzeň-sever"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0326> a ns1:county ;
-    ns3:prefLabel "Rokycany"@cs .
+    ns2:prefLabel "Rokycany"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0327> a ns1:county ;
-    ns3:prefLabel "Tachov"@cs .
+    ns2:prefLabel "Tachov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0411> a ns1:county ;
-    ns3:prefLabel "Cheb"@cs .
+    ns2:prefLabel "Cheb"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0412> a ns1:county ;
-    ns3:prefLabel "Karlovy Vary"@cs .
+    ns2:prefLabel "Karlovy Vary"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0413> a ns1:county ;
-    ns3:prefLabel "Sokolov"@cs .
+    ns2:prefLabel "Sokolov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0421> a ns1:county ;
-    ns3:prefLabel "Děčín"@cs .
+    ns2:prefLabel "Děčín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0422> a ns1:county ;
-    ns3:prefLabel "Chomutov"@cs .
+    ns2:prefLabel "Chomutov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0423> a ns1:county ;
-    ns3:prefLabel "Litoměřice"@cs .
+    ns2:prefLabel "Litoměřice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0424> a ns1:county ;
-    ns3:prefLabel "Louny"@cs .
+    ns2:prefLabel "Louny"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0425> a ns1:county ;
-    ns3:prefLabel "Most"@cs .
+    ns2:prefLabel "Most"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0426> a ns1:county ;
-    ns3:prefLabel "Teplice"@cs .
+    ns2:prefLabel "Teplice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0427> a ns1:county ;
-    ns3:prefLabel "Ústí nad Labem"@cs .
+    ns2:prefLabel "Ústí nad Labem"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0511> a ns1:county ;
-    ns3:prefLabel "Česká Lípa"@cs .
+    ns2:prefLabel "Česká Lípa"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0512> a ns1:county ;
-    ns3:prefLabel "Jablonec nad Nisou"@cs .
+    ns2:prefLabel "Jablonec nad Nisou"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0513> a ns1:county ;
-    ns3:prefLabel "Liberec"@cs .
+    ns2:prefLabel "Liberec"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0514> a ns1:county ;
-    ns3:prefLabel "Semily"@cs .
+    ns2:prefLabel "Semily"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0521> a ns1:county ;
-    ns3:prefLabel "Hradec Králové"@cs .
+    ns2:prefLabel "Hradec Králové"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0522> a ns1:county ;
-    ns3:prefLabel "Jičín"@cs .
+    ns2:prefLabel "Jičín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0523> a ns1:county ;
-    ns3:prefLabel "Náchod"@cs .
+    ns2:prefLabel "Náchod"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0524> a ns1:county ;
-    ns3:prefLabel "Rychnov nad Kněžnou"@cs .
+    ns2:prefLabel "Rychnov nad Kněžnou"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0525> a ns1:county ;
-    ns3:prefLabel "Trutnov"@cs .
+    ns2:prefLabel "Trutnov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0531> a ns1:county ;
-    ns3:prefLabel "Chrudim"@cs .
+    ns2:prefLabel "Chrudim"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0532> a ns1:county ;
-    ns3:prefLabel "Pardubice"@cs .
+    ns2:prefLabel "Pardubice"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0533> a ns1:county ;
-    ns3:prefLabel "Svitavy"@cs .
+    ns2:prefLabel "Svitavy"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0534> a ns1:county ;
-    ns3:prefLabel "Ústí nad Orlicí"@cs .
+    ns2:prefLabel "Ústí nad Orlicí"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0631> a ns1:county ;
-    ns3:prefLabel "Havlíčkův Brod"@cs .
+    ns2:prefLabel "Havlíčkův Brod"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0632> a ns1:county ;
-    ns3:prefLabel "Jihlava"@cs .
+    ns2:prefLabel "Jihlava"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0633> a ns1:county ;
-    ns3:prefLabel "Pelhřimov"@cs .
+    ns2:prefLabel "Pelhřimov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0634> a ns1:county ;
-    ns3:prefLabel "Třebíč"@cs .
+    ns2:prefLabel "Třebíč"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0635> a ns1:county ;
-    ns3:prefLabel "Žďár nad Sázavou"@cs .
+    ns2:prefLabel "Žďár nad Sázavou"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0641> a ns1:county ;
-    ns3:prefLabel "Blansko"@cs .
+    ns2:prefLabel "Blansko"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0642> a ns1:county ;
-    ns3:prefLabel "Brno-město"@cs .
+    ns2:prefLabel "Brno-město"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0643> a ns1:county ;
-    ns3:prefLabel "Brno-venkov"@cs .
+    ns2:prefLabel "Brno-venkov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0644> a ns1:county ;
-    ns3:prefLabel "Břeclav"@cs .
+    ns2:prefLabel "Břeclav"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0645> a ns1:county ;
-    ns3:prefLabel "Hodonín"@cs .
+    ns2:prefLabel "Hodonín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0646> a ns1:county ;
-    ns3:prefLabel "Vyškov"@cs .
+    ns2:prefLabel "Vyškov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0647> a ns1:county ;
-    ns3:prefLabel "Znojmo"@cs .
+    ns2:prefLabel "Znojmo"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0711> a ns1:county ;
-    ns3:prefLabel "Jeseník"@cs .
+    ns2:prefLabel "Jeseník"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0712> a ns1:county ;
-    ns3:prefLabel "Olomouc"@cs .
+    ns2:prefLabel "Olomouc"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0713> a ns1:county ;
-    ns3:prefLabel "Prostějov"@cs .
+    ns2:prefLabel "Prostějov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0714> a ns1:county ;
-    ns3:prefLabel "Přerov"@cs .
+    ns2:prefLabel "Přerov"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0715> a ns1:county ;
-    ns3:prefLabel "Šumperk"@cs .
+    ns2:prefLabel "Šumperk"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0721> a ns1:county ;
-    ns3:prefLabel "Kroměříž"@cs .
+    ns2:prefLabel "Kroměříž"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0722> a ns1:county ;
-    ns3:prefLabel "Uherské Hradiště"@cs .
+    ns2:prefLabel "Uherské Hradiště"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0723> a ns1:county ;
-    ns3:prefLabel "Vsetín"@cs .
+    ns2:prefLabel "Vsetín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0724> a ns1:county ;
-    ns3:prefLabel "Zlín"@cs .
+    ns2:prefLabel "Zlín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0801> a ns1:county ;
-    ns3:prefLabel "Bruntál"@cs .
+    ns2:prefLabel "Bruntál"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0802> a ns1:county ;
-    ns3:prefLabel "Frýdek-Místek"@cs .
+    ns2:prefLabel "Frýdek-Místek"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0803> a ns1:county ;
-    ns3:prefLabel "Karviná"@cs .
+    ns2:prefLabel "Karviná"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0804> a ns1:county ;
-    ns3:prefLabel "Nový Jičín"@cs .
+    ns2:prefLabel "Nový Jičín"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0805> a ns1:county ;
-    ns3:prefLabel "Opava"@cs .
+    ns2:prefLabel "Opava"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ0806> a ns1:county ;
-    ns3:prefLabel "Ostrava-město"@cs .
+    ns2:prefLabel "Ostrava-město"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ041> a ns1:region ;
-    ns3:prefLabel "Karlovarský kraj"@cs .
+    ns2:prefLabel "Karlovarský kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ051> a ns1:region ;
-    ns3:prefLabel "Liberecký kraj"@cs .
+    ns2:prefLabel "Liberecký kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ053> a ns1:region ;
-    ns3:prefLabel "Pardubický kraj"@cs .
+    ns2:prefLabel "Pardubický kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ072> a ns1:region ;
-    ns3:prefLabel "Zlínský kraj"@cs .
+    ns2:prefLabel "Zlínský kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ052> a ns1:region ;
-    ns3:prefLabel "Královéhradecký kraj"@cs .
+    ns2:prefLabel "Královéhradecký kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ063> a ns1:region ;
-    ns3:prefLabel "Kraj Vysočina"@cs .
+    ns2:prefLabel "Kraj Vysočina"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ071> a ns1:region ;
-    ns3:prefLabel "Olomoucký kraj"@cs .
+    ns2:prefLabel "Olomoucký kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ080> a ns1:region ;
-    ns3:prefLabel "Moravskoslezský kraj"@cs .
+    ns2:prefLabel "Moravskoslezský kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ031> a ns1:region ;
-    ns3:prefLabel "Jihočeský kraj"@cs .
+    ns2:prefLabel "Jihočeský kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ032> a ns1:region ;
-    ns3:prefLabel "Plzeňský kraj"@cs .
+    ns2:prefLabel "Plzeňský kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ042> a ns1:region ;
-    ns3:prefLabel "Ústecký kraj"@cs .
+    ns2:prefLabel "Ústecký kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ064> a ns1:region ;
-    ns3:prefLabel "Jihomoravský kraj"@cs .
+    ns2:prefLabel "Jihomoravský kraj"@cs .
 
 <https://DuongXuanAnh.github.io/resources/CZ020> a ns1:region ;
-    ns3:prefLabel "Středočeský kraj"@cs .
+    ns2:prefLabel "Středočeský kraj"@cs .
 
-ns1:region a ns2:CodedProperty,
-        ns2:DimensionProperty,
+ns1:region a ns3:CodedProperty,
+        ns3:DimensionProperty,
         rdfs:Property ;
     rdfs:label "Kraj"@cs,
         "Region"@en ;
-    ns2:codeList <https://DuongXuanAnh.github.io/resources/region> ;
-    ns2:concept <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+    ns3:codeList <https://DuongXuanAnh.github.io/resources/region> ;
+    ns3:concept <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
     rdfs:range <https://DuongXuanAnh.github.io/resources/Region> .
 
-<https://DuongXuanAnh.github.io/resources/Population_2021> a ns2:DataSet ;
+<https://DuongXuanAnh.github.io/resources/Population_2021> a ns3:DataSet ;
     rdfs:label "Obyvatelé okresy 2021"@cs,
         "Population 2021"@en ;
     ns4:issued "2023-03-19"^^xsd:date ;
     ns4:license "https://github.com/DuongXuanAnh"^^xsd:anyURI ;
     ns4:modified "2023-03-19"^^xsd:date ;
     ns4:publisher "https://github.com/DuongXuanAnh"^^xsd:anyURI ;
-    ns2:structure ns1:structure .
+    ns3:structure ns1:structure .
 
-ns1:county a ns2:CodedProperty,
-        ns2:DimensionProperty,
+ns1:county a ns3:CodedProperty,
+        ns3:DimensionProperty,
         rdfs:Property ;
     rdfs:label "Okres"@cs,
         "County"@en ;
-    ns2:codeList <https://DuongXuanAnh.github.io/resources/county> ;
-    ns2:concept <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
+    ns3:codeList <https://DuongXuanAnh.github.io/resources/county> ;
+    ns3:concept <http://purl.org/linked-data/sdmx/2009/dimension#refArea> ;
     rdfs:range <https://DuongXuanAnh.github.io/resources/County> .
 
