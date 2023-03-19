@@ -110,7 +110,7 @@ def create_dataset(cube: Graph, structure):
 
     cube.add((dataset, QB.structure, structure))
 
-    cube.add((dataset, DCTERMS.issued, Literal(datetime.date(2023, 3, 17), datatype=XSD.date)))
+    cube.add((dataset, DCTERMS.issued, Literal(datetime.date.today().isoformat(), datatype=XSD.date)))
     cube.add((dataset, DCTERMS.modified, Literal(datetime.date.today().isoformat(), datatype=XSD.date)))
     cube.add((dataset, DCTERMS.title, Literal("Poskytovatelé zdravotních služeb", lang="cs")))
     cube.add((dataset, DCTERMS.title, Literal("Care Providers", lang="en")))
