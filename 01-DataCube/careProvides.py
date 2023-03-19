@@ -127,7 +127,7 @@ def create_dataset(cube: Graph, structure):
 
 
 def format_converter(obj: any):
-    return str(obj).strip().replace(", ", ",").replace(" ", "_").lower()
+    return str(obj).replace(",", "").replace(" ", "_").lower()
 
 
 def add_resource(cube: Graph, resource_type, label: str, lang: str, resource: str):
