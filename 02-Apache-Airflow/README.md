@@ -34,9 +34,13 @@ Docker Compose v1.29.1 or newer
 
 Python3 (>=3.10)
 
+
 # Installation instructions
 - Clone repository
-- Then following this instructions:
+- Go in ./airflow
+- `docker compose build`
+- Then following this instructions (if necessary):
   - https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+- `docker compose up` to run airflow
 - On port 0.0.0.0:8080 login as "airflow" with password "airflow"
 
