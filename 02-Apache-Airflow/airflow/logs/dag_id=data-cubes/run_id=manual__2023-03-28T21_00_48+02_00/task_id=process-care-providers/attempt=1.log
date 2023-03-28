@@ -1,0 +1,24 @@
+[2023-03-28T19:02:18.191+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data-cubes.process-care-providers manual__2023-03-28T21:00:48+02:00 [queued]>
+[2023-03-28T19:02:18.234+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data-cubes.process-care-providers manual__2023-03-28T21:00:48+02:00 [queued]>
+[2023-03-28T19:02:18.236+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T19:02:18.240+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-03-28T19:02:18.245+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T19:02:18.485+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): process-care-providers> on 2023-03-28 19:00:48+00:00
+[2023-03-28T19:02:18.572+0000] {standard_task_runner.py:55} INFO - Started process 454 to run task
+[2023-03-28T19:02:18.659+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data-cubes', 'process-care-providers', 'manual__2023-03-28T21:00:48+02:00', '--job-id', '97', '--raw', '--subdir', 'DAGS_FOLDER/dag_cube.py', '--cfg-path', '/tmp/tmphd9by27_']
+[2023-03-28T19:02:18.679+0000] {standard_task_runner.py:83} INFO - Job 97: Subtask process-care-providers
+[2023-03-28T19:02:19.441+0000] {task_command.py:388} INFO - Running <TaskInstance: data-cubes.process-care-providers manual__2023-03-28T21:00:48+02:00 [running]> on host 0d46136eb14b
+[2023-03-28T19:02:21.087+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=david.anh@email.cz
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data-cubes
+AIRFLOW_CTX_TASK_ID=process-care-providers
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-28T19:00:48+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-28T21:00:48+02:00
+[2023-03-28T19:03:31.223+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-03-28T19:03:31.281+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=data-cubes, task_id=process-care-providers, execution_date=20230328T190048, start_date=20230328T190218, end_date=20230328T190331
+[2023-03-28T19:03:31.456+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-03-28T19:03:31.549+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

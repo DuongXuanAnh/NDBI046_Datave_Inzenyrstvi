@@ -1,0 +1,57 @@
+[2023-03-28T19:02:18.975+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data-cubes.process-population-2021 manual__2023-03-28T21:00:48+02:00 [queued]>
+[2023-03-28T19:02:19.107+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data-cubes.process-population-2021 manual__2023-03-28T21:00:48+02:00 [queued]>
+[2023-03-28T19:02:19.112+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T19:02:19.121+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-03-28T19:02:19.122+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T19:02:19.254+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): process-population-2021> on 2023-03-28 19:00:48+00:00
+[2023-03-28T19:02:19.289+0000] {standard_task_runner.py:55} INFO - Started process 457 to run task
+[2023-03-28T19:02:19.339+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data-cubes', 'process-population-2021', 'manual__2023-03-28T21:00:48+02:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/dag_cube.py', '--cfg-path', '/tmp/tmppy98li0h']
+[2023-03-28T19:02:19.358+0000] {standard_task_runner.py:83} INFO - Job 98: Subtask process-population-2021
+[2023-03-28T19:02:19.960+0000] {task_command.py:388} INFO - Running <TaskInstance: data-cubes.process-population-2021 manual__2023-03-28T21:00:48+02:00 [running]> on host 0d46136eb14b
+[2023-03-28T19:02:21.004+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=david.anh@email.cz
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data-cubes
+AIRFLOW_CTX_TASK_ID=process-population-2021
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-28T19:00:48+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-28T21:00:48+02:00
+[2023-03-28T19:02:22.301+0000] {taskinstance.py:1775} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_cube.py", line 15, in consumer_operator
+    consumer(output_path)
+  File "/opt/airflow/dags/operators/population.py", line 20, in population_main
+    data_cube = as_data_cube(data, codelist_data)
+  File "/opt/airflow/dags/operators/population.py", line 39, in as_data_cube
+    create_resources(cube, data, codelist)
+  File "/opt/airflow/dags/operators/population.py", line 134, in create_resources
+    krajCode_kraj = load_data("CareProviders/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv")[["Kraj", "KrajCode"]]
+  File "/opt/airflow/dags/operators/population.py", line 26, in load_data
+    data = pd.read_csv(file_path, low_memory=False)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: 'CareProviders/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv'
+[2023-03-28T19:02:22.676+0000] {taskinstance.py:1326} INFO - Marking task as UP_FOR_RETRY. dag_id=data-cubes, task_id=process-population-2021, execution_date=20230328T190048, start_date=20230328T190218, end_date=20230328T190222
+[2023-03-28T19:02:23.031+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 98 for task process-population-2021 ([Errno 2] No such file or directory: 'CareProviders/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv'; 457)
+[2023-03-28T19:02:23.174+0000] {local_task_job.py:212} INFO - Task exited with return code 1
+[2023-03-28T19:02:23.284+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

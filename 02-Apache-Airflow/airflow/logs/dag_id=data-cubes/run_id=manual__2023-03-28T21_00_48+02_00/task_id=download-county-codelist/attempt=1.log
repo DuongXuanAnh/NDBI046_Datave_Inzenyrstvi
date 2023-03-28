@@ -1,0 +1,25 @@
+[2023-03-28T19:01:56.300+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data-cubes.download-county-codelist manual__2023-03-28T21:00:48+02:00 [queued]>
+[2023-03-28T19:01:56.527+0000] {taskinstance.py:1084} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data-cubes.download-county-codelist manual__2023-03-28T21:00:48+02:00 [queued]>
+[2023-03-28T19:01:56.536+0000] {taskinstance.py:1282} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T19:01:56.544+0000] {taskinstance.py:1283} INFO - Starting attempt 1 of 2
+[2023-03-28T19:01:56.562+0000] {taskinstance.py:1284} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-28T19:01:56.858+0000] {taskinstance.py:1303} INFO - Executing <Task(PythonOperator): download-county-codelist> on 2023-03-28 19:00:48+00:00
+[2023-03-28T19:01:56.958+0000] {standard_task_runner.py:55} INFO - Started process 422 to run task
+[2023-03-28T19:01:57.114+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'data-cubes', 'download-county-codelist', 'manual__2023-03-28T21:00:48+02:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/dag_cube.py', '--cfg-path', '/tmp/tmpnb24tf3i']
+[2023-03-28T19:01:57.129+0000] {standard_task_runner.py:83} INFO - Job 95: Subtask download-county-codelist
+[2023-03-28T19:01:58.164+0000] {task_command.py:388} INFO - Running <TaskInstance: data-cubes.download-county-codelist manual__2023-03-28T21:00:48+02:00 [running]> on host 0d46136eb14b
+[2023-03-28T19:02:03.673+0000] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=david.anh@email.cz
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=data-cubes
+AIRFLOW_CTX_TASK_ID=download-county-codelist
+AIRFLOW_CTX_EXECUTION_DATE=2023-03-28T19:00:48+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-03-28T21:00:48+02:00
+[2023-03-28T19:02:04.281+0000] {logging_mixin.py:137} WARNING - /home/***/.local/lib/python3.7/site-packages/urllib3/connectionpool.py:1052 InsecureRequestWarning: Unverified HTTPS request is being made to host 'skoda.projekty.ms.mff.cuni.cz'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+[2023-03-28T19:02:04.601+0000] {python.py:177} INFO - Done. Returned value was: číselník-okresů-vazba-101-nadřízený.csv
+[2023-03-28T19:02:05.271+0000] {taskinstance.py:1326} INFO - Marking task as SUCCESS. dag_id=data-cubes, task_id=download-county-codelist, execution_date=20230328T190048, start_date=20230328T190156, end_date=20230328T190205
+[2023-03-28T19:02:05.899+0000] {local_task_job.py:212} INFO - Task exited with return code 0
+[2023-03-28T19:02:06.426+0000] {taskinstance.py:2585} INFO - 0 downstream tasks scheduled from follow-on schedule check

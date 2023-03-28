@@ -1,0 +1,15 @@
+[2023-03-28T18:42:39.317+0000] {processor.py:153} INFO - Started process (PID=165) to work on /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:42:39.320+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/operators/care_providers.py for tasks to queue
+[2023-03-28T18:42:39.324+0000] {logging_mixin.py:137} INFO - [2023-03-28T18:42:39.324+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:42:41.346+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:42:41.384+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/operators/care_providers.py took 2.080 seconds
+[2023-03-28T18:43:12.107+0000] {processor.py:153} INFO - Started process (PID=199) to work on /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:43:12.110+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/operators/care_providers.py for tasks to queue
+[2023-03-28T18:43:12.114+0000] {logging_mixin.py:137} INFO - [2023-03-28T18:43:12.113+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:43:14.857+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:43:14.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/operators/care_providers.py took 2.856 seconds
+[2023-03-28T18:43:33.298+0000] {processor.py:153} INFO - Started process (PID=239) to work on /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:43:33.303+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/operators/care_providers.py for tasks to queue
+[2023-03-28T18:43:33.313+0000] {logging_mixin.py:137} INFO - [2023-03-28T18:43:33.313+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:43:34.262+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/operators/care_providers.py
+[2023-03-28T18:43:34.453+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/operators/care_providers.py took 1.167 seconds
