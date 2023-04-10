@@ -1,0 +1,48 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:N05821e17f6424168a28251788349f0f0 {
+    <https://DuongXuanAnh.github.io/provenance#CareProvidersCubeCreationActivity> a prov:Activity ;
+        prov:endedAtTime "2023-05-10T00:00:00"^^xsd:dateTime ;
+        prov:qualifiedUsage [ a prov:Usage ;
+                prov:entity <https://DuongXuanAnh.github.io/provenance#CareProvidersDataset> ;
+                prov:hadRole <https://DuongXuanAnh.github.io/provenance#ETLRole> ] ;
+        prov:startedAtTime "2023-04-10T00:00:00"^^xsd:dateTime ;
+        prov:used <https://DuongXuanAnh.github.io/provenance#CareProvidersDataset> .
+
+    <https://DuongXuanAnh.github.io/provenance#MFF> a prov:Agent,
+            foaf:Organization ;
+        foaf:homepage "https://www.mff.cuni.cz/"^^xsd:anyURI ;
+        foaf:name "Matematicko-fyzikální fakulta"@cs .
+
+    <https://DuongXuanAnh.github.io/resources/CareProviders> a prov:Entity ;
+        prov:wasAttributedTo <https://DuongXuanAnh.github.io/provenance#CareProvidersETLScript> ;
+        prov:wasDerivedFrom <https://DuongXuanAnh.github.io/provenance#CareProvidersDataset> ;
+        prov:wasGeneratedBy <https://DuongXuanAnh.github.io/provenance#CareProvidersETLScript> .
+
+    <https://DuongXuanAnh.github.io/provenance#DuongXuanAnh> a prov:Agent,
+            foaf:Person ;
+        prov:wasAttributedTo <https://DuongXuanAnh.github.io/provenance#PetrSkoda> ;
+        foaf:mbox <mailto:david.anh@email.cz> ;
+        foaf:name "Duong Xuan Anh"@cs .
+
+    <https://DuongXuanAnh.github.io/provenance#HealthMinistryCR> a prov:Agent,
+            foaf:Organization ;
+        foaf:homepage "https://www.mzcr.cz/"^^xsd:anyURI ;
+        foaf:name "Ministerstvo zdravotnictví ČR"@cs .
+
+    <https://DuongXuanAnh.github.io/provenance#PetrSkoda> a prov:Agent,
+            foaf:Person ;
+        prov:wasAttributedTo <https://DuongXuanAnh.github.io/provenance#MFF_UK> ;
+        foaf:mbox <mailto:petr.skoda@matfyz.cuni.cz> ;
+        foaf:name "Mgr. Petr Škoda, Ph.D."@cs .
+
+    <https://DuongXuanAnh.github.io/provenance#CareProvidersETLScript> a prov:SoftwareAgent ;
+        prov:atLocation <care_providers_cube.py> ;
+        prov:wasAttributedTo <https://DuongXuanAnh.github.io/provenance#DuongXuanAnh> .
+
+    <https://DuongXuanAnh.github.io/provenance#CareProvidersDataset> a prov:Entity ;
+        prov:wasGeneratedBy <https://DuongXuanAnh.github.io/provenance#HealthMinistryCR> .
+}
+

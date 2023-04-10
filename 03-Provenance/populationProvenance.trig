@@ -1,0 +1,63 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:Nc0e9db9101fc4df5bb3bdd20ae31c089 {
+    <http://DuongXuanAnh.org/provenance#MFF> a prov:Agent,
+            foaf:Organization ;
+        foaf:name "Matematicko-fyzikální fakulta"@cs ;
+        foaf:schoolHomepage "https://www.mff.cuni.cz/"^^xsd:anyURI .
+
+    <http://DuongXuanAnh.org/provenance#CareProvidersDataset> a prov:Entity ;
+        prov:wasAttributedTo <http://DuongXuanAnh.org/provenance#HealthMinistryCR> .
+
+    <http://DuongXuanAnh.org/provenance#CountyCodelistMap> a prov:Entity ;
+        prov:wasAttributedTo <http://DuongXuanAnh.org/provenance#CzechStatisticalOffice> .
+
+    <http://DuongXuanAnh.org/provenance#DuongXuanAnh> a prov:Agent,
+            foaf:Person ;
+        prov:actedOnBehalfOf <http://DuongXuanAnh.org/provenance#PetrSkoda> ;
+        foaf:mbox <mailto:david.anh@email.cz> ;
+        foaf:name "Duong Xuan Anh"@cs .
+
+    <http://DuongXuanAnh.org/provenance#HealthMinistryCR> a prov:Agent,
+            foaf:Organization ;
+        foaf:homepage "https://www.mzcr.cz/"^^xsd:anyURI ;
+        foaf:name "Ministerstvo zdravotnictví ČR"@cs .
+
+    <http://DuongXuanAnh.org/provenance#PetrSkoda> a prov:Agent,
+            foaf:Person ;
+        prov:actedOnBehalfOf <http://DuongXuanAnh.org/provenance#MFF_UK> ;
+        foaf:mbox <mailto:petr.skoda@matfyz.cuni.cz> ;
+        foaf:name "Mgr. Petr Škoda, Ph.D."@cs .
+
+    <http://DuongXuanAnh.org/provenance#Population2021CubeCreationActivity> a prov:Activity ;
+        prov:endedAtTime "2023-05-10T00:00:00"^^xsd:dateTime ;
+        prov:startedAtTime "2023-04-10T00:00:00"^^xsd:dateTime ;
+        prov:used [ a prov:Usage ;
+                prov:entity <http://DuongXuanAnh/population#MeanPopulation2021> ;
+                prov:hadRole <http://DuongXuanAnh.org/provenance#ETLRole> ],
+            [ a prov:Usage ;
+                prov:entity <http://DuongXuanAnh.org/provenance#CountyCodelistMap> ;
+                prov:hadRole <http://DuongXuanAnh.org/provenance#ETLRole> ],
+            [ a prov:Usage ;
+                prov:entity <http://DuongXuanAnh.org/provenance#CareProvidersDataset> ;
+                prov:hadRole <http://DuongXuanAnh.org/provenance#ETLRole> ] ;
+        prov:wasAssociatedWith <http://DuongXuanAnh.org/provenance#Population2021ETLScript> .
+
+    <http://DuongXuanAnh/population#MeanPopulation2021> a prov:Entity ;
+        prov:wasAttributedTo <http://DuongXuanAnh.org/provenance#CzechStatisticalOffice>,
+            <http://DuongXuanAnh.org/provenance#Population2021ETLScript> ;
+        prov:wasDerivedFrom <http://DuongXuanAnh.org/provenance#Population2021Dataset> ;
+        prov:wasGeneratedBy <http://DuongXuanAnh.org/provenance#Population2021CubeCreationActivity> .
+
+    <http://DuongXuanAnh.org/provenance#CzechStatisticalOffice> a prov:Agent,
+            foaf:Organization ;
+        foaf:homepage "https://www.czso.cz/"^^xsd:anyURI ;
+        foaf:name "Český statistický úřad"@cs .
+
+    <http://DuongXuanAnh.org/provenance#Population2021ETLScript> a prov:SoftwareAgent ;
+        prov:actedOnBehalfOf <http://DuongXuanAnh.org/provenance#DuongXuanAnh> ;
+        prov:atLocation <population_2021_cube.py> .
+}
+
