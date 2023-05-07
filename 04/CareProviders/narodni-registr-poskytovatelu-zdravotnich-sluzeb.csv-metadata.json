@@ -1,0 +1,225 @@
+{
+    "@context":     [
+        "http://www.w3.org/ns/csvw",
+        {"@language": "cs"}
+    ],
+    "url": "narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv",
+    "dc:title": "Národní registr poskytovatelů zdravotních služeb",
+    "dcat:keyword":     [
+        "registr",
+        "poskytovatel zdravotních služeb"
+    ],
+    "dc:publisher":     {
+        "schema:name": "ÚZIS ČR",
+        "schema:url": {"@id": "http://nrpzs.uzis.cz/"}
+    },
+    "dc:license": {"@id": "https://data.gov.cz/podm%C3%ADnky-u%C5%BEit%C3%AD/voln%C3%BD-p%C5%99%C3%ADstup/"},
+    "dc:modified":     {
+        "@value": "2023-03-01",
+        "@type": "xsd:date"
+    },
+    "tableSchema":     {
+        "columns":         [
+                        {
+                "name": "MistoPoskytovaniId",
+                "titles": "MistoPoskytovaniId",
+                "datatype": "integer"
+            },
+                        {
+                "name": "ZdravotnickeZarizeniId",
+                "titles": "ZdravotnickeZarizeniId",
+                "datatype": "integer"
+            },
+                        {
+                "name": "Kod",
+                "titles": "Kod",
+                "datatype": "string",
+                "dc:description": "univerzální kód zdravotnického zařízení"
+            },
+                        {
+                "name": "NazevZarizeni",
+                "titles": "NazevZarizeni",
+                "datatype": "string",
+                "dc:description": "název zdravotnického zařízení"
+            },
+                        {
+                "name": "DruhZarizeni",
+                "titles": "DruhZarizeni",
+                "datatype": "string",
+                "dc:description": "textová hodnota z číselníku, unikátní"
+            },
+                        {
+                "name": "Obec",
+                "titles": "Obec",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: obec"
+            },
+                        {
+                "name": "Psc",
+                "titles": "Psc",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: PSČ"
+            },
+                        {
+                "name": "Ulice",
+                "titles": "Ulice",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: ulice"
+            },
+                        {
+                "name": "CisloDomovniOrientacni",
+                "titles": "CisloDomovniOrientacni",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: č. orientační"
+            },
+                        {
+                "name": "Kraj",
+                "titles": "Kraj",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: kraj"
+            },
+                        {
+                "name": "KrajCode",
+                "titles": "KrajCode",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: kód kraje"
+            },
+                        {
+                "name": "Okres",
+                "titles": "Okres",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: okres"
+            },
+                        {
+                "name": "OkresCode",
+                "titles": "OkresCode",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: kód okresu"
+            },
+                        {
+                "name": "SpravniObvod",
+                "titles": "SpravniObvod",
+                "datatype": "string",
+                "dc:description": "adresa místa poskytování: správní obvod (Praha)"
+            },
+                        {
+                "name": "PoskytovatelTelefon",
+                "titles": "PoskytovatelTelefon",
+                "datatype": "string",
+                "dc:description": "poskytovatel: telefon"
+            },
+                        {
+                "name": "PoskytovatelFax",
+                "titles": "PoskytovatelFax",
+                "datatype": "string",
+                "dc:description": "poskytovatel: fax"
+            },
+                        {
+                "name": "PoskytovatelEmail",
+                "titles": "PoskytovatelEmail",
+                "datatype": "string",
+                "dc:description": "poskytovatel: e-mail"
+            },
+                        {
+                "name": "PoskytovatelWeb",
+                "titles": "PoskytovatelWeb",
+                "datatype": "string",
+                "dc:description": "poskytovatel: web"
+            },
+                        {
+                "name": "Ico",
+                "titles": "Ico",
+                "datatype": "string",
+                "dc:description": "IČO poskytovatele"
+            },
+                        {
+                "name": "TypOsoby",
+                "titles": "TypOsoby",
+                "datatype": "string",
+                "dc:description": "zřizovatel: typ právnické osoby"
+            },
+                        {
+                "name": "PravniFormaKod",
+                "titles": "PravniFormaKod",
+                "datatype": "string",
+                "dc:description": "zřizovatel: kód právní formy"
+            },
+                        {
+                "name": "KrajCodeSidlo",
+                "titles": "KrajCodeSidlo",
+                "datatype": "string",
+                "dc:description": "zřizovatel adresa sídla: kód kraje"
+            },
+                        {
+                "name": "OkresCodeSidlo",
+                "titles": "OkresCodeSidlo",
+                "datatype": "string",
+                "dc:description": "zřizovatel adresa sídla: kód okresu"
+            },
+                        {
+                "name": "ObecSidlo",
+                "titles": "ObecSidlo",
+                "datatype": "string",
+                "dc:description": "zřizovatel adresa sídla: obec"
+            },
+                        {
+                "name": "PscSidlo",
+                "titles": "PscSidlo",
+                "datatype": "string",
+                "dc:description": "zřizovatel adresa sídla: PSČ"
+            },
+                        {
+                "name": "UliceSidlo",
+                "titles": "UliceSidlo",
+                "datatype": "string",
+                "dc:description": "zřizovatel adresa sídla: ulice"
+            },
+                        {
+                "name": "CisloDomovniOrientacniSidlo",
+                "titles": "CisloDomovniOrientacniSidlo",
+                "datatype": "string",
+                "dc:description": "zřizovatel adresa sídla: č. orientační"
+            },
+                        {
+                "name": "OborPece",
+                "titles": "OborPece",
+                "datatype": "string",
+                "dc:description": "textové hodnoty z číselníku OborPece"
+            },
+                        {
+                "name": "FormaPece",
+                "titles": "FormaPece",
+                "datatype": "string",
+                "dc:description": "textové hodnoty z číselníku FormaPece"
+            },
+                        {
+                "name": "DruhPece",
+                "titles": "DruhPece",
+                "datatype": "string",
+                "dc:description": "textové hodnoty z číselníku DruhPece"
+            },
+                        {
+                "name": "OdbornyZastupce",
+                "titles": "OdbornyZastupce",
+                "datatype": "string",
+                "dc:description": "odborný zástupce"
+            },
+                        {
+                "name": "Lat",
+                "titles": "Lat",
+                "datatype": "string",
+                "dc:description": "GPS souřadnice místa poskytování, WGS84 šířka"
+            },
+                        {
+                "name": "Lng",
+                "titles": "Lng",
+                "datatype": "string",
+                "dc:description": "GPS souřadnice místa poskytování, WGS84 délka"
+            }
+        ],
+        "primaryKey":         [
+            "MistoPoskytovaniId",
+            "ZdravotnickeZarizeniId"
+        ]
+    }
+}

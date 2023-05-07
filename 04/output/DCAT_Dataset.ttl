@@ -1,0 +1,24 @@
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://DuongXuanAnh.github.io/resources/CareProviders> a ns2:Dataset ;
+    rdfs:label "Poskytovatelé zdravotních služeb"@cs,
+        "Care Providers"@en ;
+    ns3:accrualPeriodicity <http://publications.europa.eu/resource/authority/FREQ_A> ;
+    ns3:description "A dataset containing care providers information." ;
+    ns3:publisher <https://DuongXuanAnh.github.io/resources/publisher> ;
+    ns3:spatial <http://publications.europa.eu/resource/authority/CNTR_CZ> ;
+    ns2:distribution <https://DuongXuanAnh.github.io/resources/CareProviders_distribution> ;
+    ns2:keyword "care providers" ;
+    ns2:theme <http://eurovoc.europa.eu/2185> .
+
+<https://DuongXuanAnh.github.io/resources/CareProviders_distribution> a ns2:Distribution ;
+    ns2:accessURL "https://github.com/DuongXuanAnh"^^xsd:anyURI ;
+    ns2:mediaType <http://publications.europa.eu/resource/authority/MEDIA_TYPE_TTL> .
+
+<https://DuongXuanAnh.github.io/resources/publisher> a ns1:Agent ;
+    ns1:name "https://github.com/DuongXuanAnh" .
+
