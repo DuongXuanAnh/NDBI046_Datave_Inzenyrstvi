@@ -58,7 +58,7 @@ def create_dimensions(cube: Graph):
     cube.add((region, RDF.type, QB.DimensionProperty))
     cube.add((region, RDFS.label, Literal("Kraj", lang="cs")))
     cube.add((region, RDFS.label, Literal("Region", lang="en")))
-    cube.add((region, RDFS.range, NSR.Region))
+    cube.add((region, RDFS.range, NSR.region))
     cube.add((region, QB.codeList, NSR.region))
     cube.add((region, QB.concept, SDMX_DIM.refArea))
 
@@ -145,7 +145,7 @@ def create_resources(cube: Graph, data):
     for _, row in data[["Kraj", "KrajCode"]].drop_duplicates().dropna().iterrows():
         region = format_converter(row["KrajCode"])
         region_label = str(row["Kraj"])
-        add_resource(cube, NS.region, region_label, "cs", region)
+        add_resource(cube, NS.Region, region_label, "cs", region)
 
     for _, row in data[["OborPece"]].drop_duplicates().dropna().iterrows():
         fieldOfCare = format_converter(row["OborPece"])

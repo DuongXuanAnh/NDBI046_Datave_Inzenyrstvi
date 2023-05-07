@@ -137,7 +137,7 @@ def create_resources(cube: Graph, data, codelist):
     krajCode_kraj = load_data("CareProviders/narodni-registr-poskytovatelu-zdravotnich-sluzeb.csv")[["Kraj", "KrajCode"]]
     for _, row in krajCode_kraj.drop_duplicates().dropna().iterrows():
         region = row["KrajCode"]
-        cube.add((NSR[region], RDF.type, NS.region))
+        cube.add((NSR[region], RDF.type, NS.Region))
         cube.add((NSR[region], SKOS.prefLabel, Literal(row["Kraj"], lang="cs")))
 
 
