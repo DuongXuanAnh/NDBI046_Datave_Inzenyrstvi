@@ -178,15 +178,19 @@ def create_hierarchy(cube: Graph, data):
         region = NSR[format_converter(row["KrajCode"])]
         region_label = str(row["Kraj"])
         cube.add((region, RDF.type, SKOS.Concept))
-        cube.add((region, SKOS.inScheme, eurovoc_regauth))
+        cube.add((region, SKOS.ConceptScheme, eurovoc_regauth))
         cube.add((region, SKOS.prefLabel, Literal(region_label, lang="cs")))
 
-    for _, row in data[["Okres", "OkresCode"]].drop_duplicates().dropna().iterrows():
+    for _, row in data[["Okres", "OkresCode", "KrajCode"]].drop_duplicates().dropna().iterrows():
         county = NSR[format_converter(row["OkresCode"])]
         county_label = str(row["Okres"])
         cube.add((county, RDF.type, SKOS.Concept))
-        cube.add((county, SKOS.inScheme, eurovoc_regauth))
+        cube.add((county, SKOS.ConceptScheme, eurovoc_regauth))
         cube.add((county, SKOS.prefLabel, Literal(county_label, lang="cs")))
+        
+        region = NSR[format_converter(row["KrajCode"])]
+        cube.add((county, SKOS.broader, region))
+        cube.add((region, SKOS.narrower, county))
 
     return cube
 
