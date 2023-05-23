@@ -1,0 +1,75 @@
+﻿{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language": "cs"}],
+  "url": "130141-22data2021.csv",
+  "tableSchema": {
+    "columns": [{
+      "name": "idhod",
+      "titles": "idhod",
+      "dc:description":"unikátní identifikátor údaje Veřejné databáze ČSÚ",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "hodnota",
+      "titles": "hodnota",
+      "dc:description":"zjištěná hodnota",
+      "required": true,
+      "datatype": "number"
+    }, {
+      "name": "vuk",
+      "titles": "vuk",
+      "dc:description":"kód výstupního ukazatele veřejné databáze",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "vuk_txt",
+      "titles": "vuk_txt",
+      "dc:description":"název výstupního ukazatele",
+      "required": true,
+      "datatype": "string"
+    },  {
+      "name": "stapro_kod",
+      "titles": "stapro_kod",
+      "dc:description":"kód statistické proměnné ze systému SMS UKAZ",
+      "required": true,
+      "datatype": "string"
+    },  {
+      "name": "vuzemi_cis",
+      "titles": "vuzemi_cis",
+      "dc:description":"kód číselníku pro referenční území, číselník odpovídá typologii území, stát (Česká republika) má kód 97, kraje kód 100, okresy kód 101, správní obvody ORP 65, obce 43",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "vuzemi_kod",
+      "titles": "vuzemi_kod",
+      "dc:description":"kód položky z číselníku pro referenční území",
+      "required": true,
+      "datatype": "string"
+    }, {
+      "name": "rok",
+      "titles": "rok",
+      "dc:description":"referenční období - extract roku ve formátu RRRR",
+      "required": true,
+      "datatype": "number"
+    }, {
+      "name": "casref_od",
+      "titles": "casref_od",
+      "dc:description":"referenční období - začátek intervalu - ve formátu RRRR-MM-DD",
+      "required": true,
+      "datatype": "date"
+    }, {
+      "name": "casref_do",
+      "titles": "casref_do",
+      "dc:description":"referenční období - konec intervalu - ve formátu RRRR-MM-DD",
+      "required": true,
+      "datatype": "date"
+    }, {
+      "name": "vuzemi_txt",
+      "titles": "vuzemi_txt",
+      "dc:description":"text položky z číselníku pro referenční území",
+      "required": true,
+      "datatype": "string"
+    }
+    ],
+    "primaryKey": "idhod"
+  }
+}

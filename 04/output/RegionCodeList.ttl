@@ -1,0 +1,937 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://DuongXuanAnh.github.io/resources/Country> a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Krajina"@cs,
+        "Country"@en ;
+    skos:prefLabel "Krajina"@cs,
+        "Country"@en .
+
+<https://DuongXuanAnh.github.io/resources/County> a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Okres"@cs,
+        "County"@en ;
+    qb:codeList <https://DuongXuanAnh.github.io/resources/county> ;
+    rdfs:range <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:subClassOf <https://DuongXuanAnh.github.io/resources/Country> ;
+    skos:prefLabel "Okres"@cs,
+        "County"@en .
+
+<https://DuongXuanAnh.github.io/resources/Region> a rdfs:Class,
+        owl:Class ;
+    rdfs:label "Kraj"@cs,
+        "Region"@en ;
+    qb:codeList <https://DuongXuanAnh.github.io/resources/region> ;
+    rdfs:subClassOf <https://DuongXuanAnh.github.io/resources/Country> ;
+    skos:prefLabel "Kraj"@cs,
+        "Region"@en .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0201> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Benešov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0201" ;
+    skos:prefLabel "Benešov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0202> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Beroun"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0202" ;
+    skos:prefLabel "Beroun"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0203> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Kladno"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0203" ;
+    skos:prefLabel "Kladno"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0204> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Kolín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0204" ;
+    skos:prefLabel "Kolín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0205> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Kutná Hora"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0205" ;
+    skos:prefLabel "Kutná Hora"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0206> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Mělník"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0206" ;
+    skos:prefLabel "Mělník"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0207> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Mladá Boleslav"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0207" ;
+    skos:prefLabel "Mladá Boleslav"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0208> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Nymburk"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0208" ;
+    skos:prefLabel "Nymburk"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0209> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Praha-východ"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ0209" ;
+    skos:prefLabel "Praha-východ"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ020A> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Praha-západ"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ020A" ;
+    skos:prefLabel "Praha-západ"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ020B> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Příbram"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ020B" ;
+    skos:prefLabel "Příbram"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ020C> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Rakovník"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ020> ;
+    skos:notation "CZ020C" ;
+    skos:prefLabel "Rakovník"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0311> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "České Budějovice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0311" ;
+    skos:prefLabel "České Budějovice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0312> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Český Krumlov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0312" ;
+    skos:prefLabel "Český Krumlov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0313> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Jindřichův Hradec"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0313" ;
+    skos:prefLabel "Jindřichův Hradec"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0314> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Písek"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0314" ;
+    skos:prefLabel "Písek"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0315> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Prachatice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0315" ;
+    skos:prefLabel "Prachatice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0316> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Strakonice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0316" ;
+    skos:prefLabel "Strakonice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0317> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Tábor"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ031> ;
+    skos:notation "CZ0317" ;
+    skos:prefLabel "Tábor"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0321> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Domažlice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0321" ;
+    skos:prefLabel "Domažlice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0322> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Klatovy"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0322" ;
+    skos:prefLabel "Klatovy"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0323> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Plzeň-město"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0323" ;
+    skos:prefLabel "Plzeň-město"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0324> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Plzeň-jih"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0324" ;
+    skos:prefLabel "Plzeň-jih"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0325> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Plzeň-sever"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0325" ;
+    skos:prefLabel "Plzeň-sever"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0326> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Rokycany"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0326" ;
+    skos:prefLabel "Rokycany"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0327> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Tachov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ032> ;
+    skos:notation "CZ0327" ;
+    skos:prefLabel "Tachov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0411> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Cheb"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ041> ;
+    skos:notation "CZ0411" ;
+    skos:prefLabel "Cheb"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0412> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Karlovy Vary"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ041> ;
+    skos:notation "CZ0412" ;
+    skos:prefLabel "Karlovy Vary"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0413> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Sokolov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ041> ;
+    skos:notation "CZ0413" ;
+    skos:prefLabel "Sokolov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0421> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Děčín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0421" ;
+    skos:prefLabel "Děčín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0422> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Chomutov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0422" ;
+    skos:prefLabel "Chomutov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0423> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Litoměřice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0423" ;
+    skos:prefLabel "Litoměřice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0424> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Louny"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0424" ;
+    skos:prefLabel "Louny"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0425> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Most"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0425" ;
+    skos:prefLabel "Most"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0426> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Teplice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0426" ;
+    skos:prefLabel "Teplice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0427> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Ústí nad Labem"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ042> ;
+    skos:notation "CZ0427" ;
+    skos:prefLabel "Ústí nad Labem"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0511> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Česká Lípa"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ051> ;
+    skos:notation "CZ0511" ;
+    skos:prefLabel "Česká Lípa"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0512> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Jablonec nad Nisou"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ051> ;
+    skos:notation "CZ0512" ;
+    skos:prefLabel "Jablonec nad Nisou"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0513> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Liberec"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ051> ;
+    skos:notation "CZ0513" ;
+    skos:prefLabel "Liberec"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0514> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Semily"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ051> ;
+    skos:notation "CZ0514" ;
+    skos:prefLabel "Semily"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0521> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Hradec Králové"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ052> ;
+    skos:notation "CZ0521" ;
+    skos:prefLabel "Hradec Králové"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0522> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Jičín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ052> ;
+    skos:notation "CZ0522" ;
+    skos:prefLabel "Jičín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0523> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Náchod"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ052> ;
+    skos:notation "CZ0523" ;
+    skos:prefLabel "Náchod"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0524> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Rychnov nad Kněžnou"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ052> ;
+    skos:notation "CZ0524" ;
+    skos:prefLabel "Rychnov nad Kněžnou"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0525> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Trutnov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ052> ;
+    skos:notation "CZ0525" ;
+    skos:prefLabel "Trutnov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0531> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Chrudim"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ053> ;
+    skos:notation "CZ0531" ;
+    skos:prefLabel "Chrudim"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0532> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Pardubice"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ053> ;
+    skos:notation "CZ0532" ;
+    skos:prefLabel "Pardubice"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0533> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Svitavy"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ053> ;
+    skos:notation "CZ0533" ;
+    skos:prefLabel "Svitavy"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0534> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Ústí nad Orlicí"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ053> ;
+    skos:notation "CZ0534" ;
+    skos:prefLabel "Ústí nad Orlicí"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0631> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Havlíčkův Brod"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ063> ;
+    skos:notation "CZ0631" ;
+    skos:prefLabel "Havlíčkův Brod"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0632> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Jihlava"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ063> ;
+    skos:notation "CZ0632" ;
+    skos:prefLabel "Jihlava"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0633> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Pelhřimov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ063> ;
+    skos:notation "CZ0633" ;
+    skos:prefLabel "Pelhřimov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0634> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Třebíč"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ063> ;
+    skos:notation "CZ0634" ;
+    skos:prefLabel "Třebíč"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0635> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Žďár nad Sázavou"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ063> ;
+    skos:notation "CZ0635" ;
+    skos:prefLabel "Žďár nad Sázavou"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0641> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Blansko"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0641" ;
+    skos:prefLabel "Blansko"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0642> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Brno-město"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0642" ;
+    skos:prefLabel "Brno-město"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0643> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Brno-venkov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0643" ;
+    skos:prefLabel "Brno-venkov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0644> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Břeclav"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0644" ;
+    skos:prefLabel "Břeclav"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0645> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Hodonín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0645" ;
+    skos:prefLabel "Hodonín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0646> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Vyškov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0646" ;
+    skos:prefLabel "Vyškov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0647> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Znojmo"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ064> ;
+    skos:notation "CZ0647" ;
+    skos:prefLabel "Znojmo"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0711> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Jeseník"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ071> ;
+    skos:notation "CZ0711" ;
+    skos:prefLabel "Jeseník"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0712> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Olomouc"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ071> ;
+    skos:notation "CZ0712" ;
+    skos:prefLabel "Olomouc"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0713> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Prostějov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ071> ;
+    skos:notation "CZ0713" ;
+    skos:prefLabel "Prostějov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0714> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Přerov"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ071> ;
+    skos:notation "CZ0714" ;
+    skos:prefLabel "Přerov"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0715> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Šumperk"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ071> ;
+    skos:notation "CZ0715" ;
+    skos:prefLabel "Šumperk"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0721> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Kroměříž"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ072> ;
+    skos:notation "CZ0721" ;
+    skos:prefLabel "Kroměříž"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0722> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Uherské Hradiště"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ072> ;
+    skos:notation "CZ0722" ;
+    skos:prefLabel "Uherské Hradiště"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0723> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Vsetín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ072> ;
+    skos:notation "CZ0723" ;
+    skos:prefLabel "Vsetín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0724> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Zlín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ072> ;
+    skos:notation "CZ0724" ;
+    skos:prefLabel "Zlín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0801> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Bruntál"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ080> ;
+    skos:notation "CZ0801" ;
+    skos:prefLabel "Bruntál"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0802> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Frýdek-Místek"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ080> ;
+    skos:notation "CZ0802" ;
+    skos:prefLabel "Frýdek-Místek"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0803> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Karviná"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ080> ;
+    skos:notation "CZ0803" ;
+    skos:prefLabel "Karviná"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0804> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Nový Jičín"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ080> ;
+    skos:notation "CZ0804" ;
+    skos:prefLabel "Nový Jičín"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0805> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Opava"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ080> ;
+    skos:notation "CZ0805" ;
+    skos:prefLabel "Opava"@cs .
+
+<https://DuongXuanAnh.github.io/resources/county/CZ0806> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:label "Ostrava-město"@cs ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/county> ;
+    skos:narrowMatch <https://DuongXuanAnh.github.io/resources/region/CZ080> ;
+    skos:notation "CZ0806" ;
+    skos:prefLabel "Ostrava-město"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ041> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Karlovarský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ041" ;
+    skos:prefLabel "Karlovarský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ051> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Liberecký kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ051" ;
+    skos:prefLabel "Liberecký kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ053> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Pardubický kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ053" ;
+    skos:prefLabel "Pardubický kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ072> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Zlínský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ072" ;
+    skos:prefLabel "Zlínský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ052> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Královéhradecký kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ052" ;
+    skos:prefLabel "Královéhradecký kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ063> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Kraj Vysočina"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ063" ;
+    skos:prefLabel "Kraj Vysočina"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ071> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Olomoucký kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ071" ;
+    skos:prefLabel "Olomoucký kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ080> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Moravskoslezský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ080" ;
+    skos:prefLabel "Moravskoslezský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ031> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Jihočeský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ031" ;
+    skos:prefLabel "Jihočeský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ032> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Plzeňský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ032" ;
+    skos:prefLabel "Plzeňský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ042> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Ústecký kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ042" ;
+    skos:prefLabel "Ústecký kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ064> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Jihomoravský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ064" ;
+    skos:prefLabel "Jihomoravský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region/CZ020> a <http://purl.org/linked-data/sdmx/2009/code#Area>,
+        skos:Concept,
+        <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:label "Středočeský kraj"@cs ;
+    skos:broader <https://DuongXuanAnh.github.io/resources/country/CZ> ;
+    skos:inScheme <http://purl.org/linked-data/sdmx/2009/code#area>,
+        <https://DuongXuanAnh.github.io/resources/region> ;
+    skos:notation "CZ020" ;
+    skos:prefLabel "Středočeský kraj"@cs .
+
+<https://DuongXuanAnh.github.io/resources/region> a skos:ConceptScheme ;
+    rdfs:label "Kraj"@cs,
+        "Region"@en ;
+    qb:codeList <https://DuongXuanAnh.github.io/resources/Region> ;
+    rdfs:range <https://DuongXuanAnh.github.io/resources/Region> ;
+    skos:prefLabel "Kraj"@cs,
+        "Region"@en .
+
+<https://DuongXuanAnh.github.io/resources/county> a skos:ConceptScheme ;
+    rdfs:label "Okres"@cs,
+        "County"@en ;
+    qb:codeList <https://DuongXuanAnh.github.io/resources/County> ;
+    rdfs:range <https://DuongXuanAnh.github.io/resources/County> ;
+    skos:prefLabel "Okres"@cs,
+        "County"@en .
+
