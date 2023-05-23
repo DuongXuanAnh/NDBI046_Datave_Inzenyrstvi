@@ -25,5 +25,5 @@ Note: As the Authority tables links are redirected to HTTP, you can no open them
 - Clone repository
 - pip install .
 - Run the program
-  - careProviders.py -> output/CareProvides.ttl
+  - data_cube.py -> output/RegionCodeList.ttl
   - DCAT_dataset.py -> output/DCAT_Dataset.ttl
