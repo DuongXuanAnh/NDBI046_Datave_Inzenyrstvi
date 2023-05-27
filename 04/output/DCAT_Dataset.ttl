@@ -1,24 +1,28 @@
-@prefix ns1: <http://www.w3.org/ns/dcat#> .
-@prefix ns2: <http://purl.org/dc/terms/> .
-@prefix ns3: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix ns2: <http://www.w3.org/ns/dcat#> .
+@prefix ns3: <http://spdx.org/rdf/terms#> .
+@prefix ns4: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://DuongXuanAnh.github.io/resources/CareProviders> a ns1:Dataset ;
+<https://DuongXuanAnh.github.io/resources/CareProviders> a ns2:Dataset ;
     rdfs:label "Poskytovatelé zdravotních služeb"@cs,
         "Care Providers"@en ;
-    ns2:accrualPeriodicity <http://publications.europa.eu/resource/authority/FREQ_A> ;
-    ns2:description "A dataset containing care providers information." ;
-    ns2:publisher <https://DuongXuanAnh.github.io/resources/publisher> ;
-    ns2:spatial <http://publications.europa.eu/resource/authority/CNTR_CZ> ;
-    ns1:distribution <https://DuongXuanAnh.github.io/resources/CareProviders_distribution> ;
-    ns1:keyword "care providers" ;
-    ns1:theme <http://eurovoc.europa.eu/2185> .
+    ns4:accrualPeriodicity <http://publications.europa.eu/resource/authority/FREQ_A> ;
+    ns4:description "A dataset containing care providers information." ;
+    ns4:publisher <https://DuongXuanAnh.github.io/resources/publisher> ;
+    ns4:spatial <http://publications.europa.eu/resource/authority/CNTR_CZ> ;
+    ns2:distribution <https://DuongXuanAnh.github.io/resources/CareProviders_distribution> ;
+    ns2:keyword "care providers" ;
+    ns2:theme <http://eurovoc.europa.eu/2185> .
 
-<https://DuongXuanAnh.github.io/resources/CareProviders_distribution> a ns1:Distribution ;
-    ns1:accessURL "https://github.com/DuongXuanAnh"^^xsd:anyURI ;
-    ns1:mediaType <http://publications.europa.eu/resource/authority/MEDIA_TYPE_TTL> .
+<https://DuongXuanAnh.github.io/resources/CareProviders_distribution> a ns2:Distribution ;
+    ns3:checksum [ a ns3:Checksum ;
+            ns3:algorithm ns3:checksumAlgorithm_sha1 ;
+            ns3:checksumValue "f4b68415467491b6c71104e19704a6103065d86b"^^xsd:hexBinary ] ;
+    ns2:accessURL "https://github.com/DuongXuanAnh"^^xsd:anyURI ;
+    ns2:mediaType <http://publications.europa.eu/resource/authority/MEDIA_TYPE_TTL> .
 
-<https://DuongXuanAnh.github.io/resources/publisher> a ns3:Agent ;
-    ns3:name "https://github.com/DuongXuanAnh" .
+<https://DuongXuanAnh.github.io/resources/publisher> a ns1:Agent ;
+    ns1:name "https://github.com/DuongXuanAnh" .
 

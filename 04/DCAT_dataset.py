@@ -9,6 +9,7 @@ from rdflib.namespace import DCAT, FOAF
 NS = Namespace("https://DuongXuanAnh.github.io/ontology#")
 NSR = Namespace("https://DuongXuanAnh.github.io/resources/")
 RDFS = Namespace("http://www.w3.org/2000/01/rdf-schema#")
+SPDX = Namespace("http://spdx.org/rdf/terms#")
 
 EUROVOC = Namespace("http://eurovoc.europa.eu/")
 AT = Namespace("http://publications.europa.eu/resource/authority/")
@@ -34,6 +35,16 @@ def create_dcat_dataset():
     distribution = NSR.CareProviders_distribution
     dcat_graph.add((distribution, RDF.type, DCAT.Distribution))
     dcat_graph.add((distribution, DCAT.accessURL, Literal("https://github.com/DuongXuanAnh", datatype=XSD.anyURI)))
+   
+
+    checksum_node = BNode()
+    dcat_graph.add((distribution, SPDX.checksum, checksum_node))
+    dcat_graph.add((checksum_node, RDF.type, SPDX.Checksum))
+    dcat_graph.add((checksum_node, SPDX.algorithm, SPDX.checksumAlgorithm_sha1))
+    dcat_graph.add((checksum_node, SPDX.checksumValue,
+            Literal("f4b68415467491b6c71104e19704a6103065d86b", datatype=XSD.hexBinary))) #openssl dgst -sha1 CareProviders.ttl
+
+
     dcat_graph.add((distribution, DCAT.mediaType, AT.MEDIA_TYPE_TTL))
 
     dcat_graph.add((dataset, DCAT.distribution, distribution))
